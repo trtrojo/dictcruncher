@@ -3,3 +3,5 @@
 in.json
 __pycache__
 *.pyc
+dictcruncher.egg-info
+dist/*

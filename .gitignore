@@ -1,3 +1,5 @@
 .~*
 *.csv
 in.json
+__pycache__
+*.pyc

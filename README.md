@@ -1,4 +1,4 @@
-# DictCruncher - a library for flattening json objects
+# dictcruncher - a library for flattening json objects
 
 ---
 
@@ -36,7 +36,7 @@ table_config = {
     ]
 }
 
-in_dictcruncher = dm.dictcruncher(in_dict_list=in_list, mapper=table_config)
+in_dictcruncher = dm.DictCruncher(in_dict_list=in_list, mapper=table_config)
 
 flattened = in_dictcruncher.get_records(table_name='trip_config')
 
@@ -94,7 +94,7 @@ table_config = {
     ]
 }
 
-in_dictcruncher = dm.dictcruncher(in_dict_list=in_list, mapper=table_config)
+in_dictcruncher = dm.DictCruncher(in_dict_list=in_list, mapper=table_config)
 
 flattened = in_dictcruncher.get_records(table_name='routes')
 
@@ -148,7 +148,7 @@ table_config = {
     ]
 }
 
-in_dictcruncher = dm.dictcruncher(in_dict_list=in_dict, mapper=table_config)
+in_dictcruncher = dm.DictCruncher(in_dict_list=in_dict, mapper=table_config)
 
 flattened = in_dictcruncher.get_records(table_name='transactions')
 
@@ -196,7 +196,7 @@ table_config = {
     ]
 }
 
-in_dictcruncher = dm.dictcruncher(in_dict_list=in_dict, mapper=table_config)
+in_dictcruncher = dm.DictCruncher(in_dict_list=in_dict, mapper=table_config)
 
 flattened = in_dictcruncher.get_records(table_name='tips_only')
 
